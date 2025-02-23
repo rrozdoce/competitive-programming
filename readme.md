@@ -68,9 +68,4 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ---
 
-## 📩 Contato
-- **GitHub**: [@seu-usuario](https://github.com/rrozdoce)
-- **Email**: seu-email@exemplo.com
-- **Codeforces**: [seu-handle](https://codeforces.com/profile/seu-handle)
-
 **Happy Coding!** ✨
