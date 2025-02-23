@@ -34,31 +34,6 @@ Este repositório contém soluções para problemas de programação competitiva
 
 ---
 
-## 📂 Estrutura de Pastas
-
-.
-├── Codeforces
-│ ├── Contest_1234
-│ │ ├── A_ProblemName.cpp
-│ │ └── B_ProblemName.py
-│ └── Contest_5678
-│ └── A_AnotherProblem.java
-├── LeetCode
-│ ├── Easy
-│ │ └── Two_Sum.cpp
-│ ├── Medium
-│ │ └── Reverse_Linked_List.py
-│ └── Hard
-│ └── Merge_k_Sorted_Lists.java
-├── AtCoder
-│ └── Contest_2023
-│ └── A_Problem.cpp
-└── HackerRank
-└── Algorithms
-└── Warmup
-└── Simple_Array_Sum.py
-
-
 ### Convenções:
 - **Nomes de Pastas**: `Plataforma/Contest_XYZ` ou `Plataforma/Categoria` (ex: `LeetCode/Hard`).
 - **Arquivos de Solução**: `LetraOuNúmero_Problema.ext` (ex: `A_TwoSum.cpp`).
