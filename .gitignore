@@ -1,0 +1,55 @@
+# Ignorar executáveis e binários
+*.exe
+*.out
+*.bin
+
+# Ignorar arquivos objeto e de depuração
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+
+# Ignorar arquivos de depuração e símbolos
+*.pdb
+*.idb
+*.ilk
+*.db
+*.dSYM/
+
+# Ignorar arquivos gerados pelo CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Ignorar diretórios de build
+build/
+bin/
+obj/
+
+# Ignorar arquivos de IDE/Editores
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj*
+*.filters
+*.opensdf
+*.sdf
+
+# Ignorar arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignorar arquivos de dependências e pacotes
+deps/
+packages/
