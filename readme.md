@@ -1,6 +1,6 @@
 # Competitive Programming Solutions 🚀
 
-Este repositório contém soluções para problemas de programação competitiva de plataformas como Codeforces, LeetCode, AtCoder, HackerRank e outras. As soluções são organizadas por plataforma e contest/evento, com foco em clareza e eficiência.
+Este repositório contém soluções para problemas de programação competitiva de plataformas como Beecrowd, LeetCode, HackerRank e outras. As soluções são organizadas por plataforma e contest/coders, com foco em clareza e eficiência.
 
 ## 📋 Tabela de Conteúdos
 - [Competitive Programming Solutions 🚀](#competitive-programming-solutions-)
@@ -10,7 +10,6 @@ Este repositório contém soluções para problemas de programação competitiva
     - [Convenções:](#convenções)
   - [🤝 Contribuição](#-contribuição)
   - [📚 Recursos Úteis](#-recursos-úteis)
-  - [📜 Licença](#-licença)
 
 ---
 
@@ -20,27 +19,20 @@ Este repositório contém soluções para problemas de programação competitiva
 - **Organização**: 
   - Cada solução inclui um link para o problema original.
   - Complexidade temporal e espacial é indicada quando relevante.
-  - Explicações em comentários ou arquivos `NOTES.md`.
+  - Explicação do problema em `readme.md` para cada problema haverá um readme.
 
 ---
 
 ## 🏆 Plataformas Incluídas
 - [Beecrowd](https://judge.beecrowd.com/)
-- [Codeforces](https://codeforces.com/)
 - [LeetCode](https://leetcode.com/)
-- [AtCoder](https://atcoder.jp/)
-- [HackerRank](https://www.hackerrank.com/)
-- [CodeChef](https://www.codechef.com/)
-- [SPOJ](https://www.spoj.com/)
-- [Kattis](https://open.kattis.com/)
 
 ---
 
 ### Convenções:
-- **Nomes de Pastas**: `Plataforma/Contest_XYZ` ou `Plataforma/Categoria` (ex: `LeetCode/Hard`).
-- **Arquivos de Solução**: `LetraOuNúmero_Problema.ext` (ex: `A_TwoSum.cpp`).
-- **Comentários**: Incluir link para o problema e descrição da abordagem.
-- **Notas**: Arquivos `NOTES.md` em pastas de contest para explicações detalhadas.
+- **Nomes de Pastas**: `contests/coders/` ou `contests/algorithms` (ex: `contests/coders/beecrowd`).
+- **Arquivos de Solução**: `numeroProblema.ext` (ex: `2394.cpp`).
+- **Notas**: Arquivos `readme.md` em pastas em cada um dos problemas para explicações detalhadas.
 
 ---
 
@@ -62,11 +54,6 @@ Contribuições são bem-vindas! Siga estas etapas:
   - "Competitive Programming 3" por Steven Halim
   - "Algorithm Design Manual" por Skiena
 - Canais do YouTube: [Errichto](https://www.youtube.com/c/Errichto), [William Lin](https://www.youtube.com/c/williamlin24)
-
----
-
-## 📜 Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ---
 
