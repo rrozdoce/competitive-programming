@@ -3,13 +3,14 @@
 Este repositório contém soluções para problemas de programação competitiva de plataformas como Codeforces, LeetCode, AtCoder, HackerRank e outras. As soluções são organizadas por plataforma e contest/evento, com foco em clareza e eficiência.
 
 ## 📋 Tabela de Conteúdos
-- [Visão Geral](#-visão-geral)
-- [Plataformas Incluídas](#-plataformas-incluídas)
-- [Estrutura de Pastas](#-estrutura-de-pastas)
-- [Contribuição](#-contribuição)
-- [Recursos Úteis](#-recursos-úteis)
-- [Licença](#-licença)
-- [Contato](#-contato)
+- [Competitive Programming Solutions 🚀](#competitive-programming-solutions-)
+  - [📋 Tabela de Conteúdos](#-tabela-de-conteúdos)
+  - [🧠 Visão Geral](#-visão-geral)
+  - [🏆 Plataformas Incluídas](#-plataformas-incluídas)
+    - [Convenções:](#convenções)
+  - [🤝 Contribuição](#-contribuição)
+  - [📚 Recursos Úteis](#-recursos-úteis)
+  - [📜 Licença](#-licença)
 
 ---
 
@@ -24,6 +25,7 @@ Este repositório contém soluções para problemas de programação competitiva
 ---
 
 ## 🏆 Plataformas Incluídas
+- [Beecrowd](https://judge.beecrowd.com/)
 - [Codeforces](https://codeforces.com/)
 - [LeetCode](https://leetcode.com/)
 - [AtCoder](https://atcoder.jp/)
