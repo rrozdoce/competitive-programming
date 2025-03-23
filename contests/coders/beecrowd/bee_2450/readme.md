@@ -20,11 +20,8 @@ Exemplos de Entrada
 4 6
 
 1 2 9 9 9 9
-
 0 0 3 9 9 9
-
 0 0 0 0 5 9
-
 0 0 0 0 0 6
 	
 Exemplos de Saída
