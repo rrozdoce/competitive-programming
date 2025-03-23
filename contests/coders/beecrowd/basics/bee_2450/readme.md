@@ -50,3 +50,7 @@ Exemplos de Entrada
 	
 Exemplos de Saída
 N
+
+Complexidade:
+Tempo: O(N×M),pois percorremos cada elemento da matriz uma vez.
+Espaço: O(N×M),para armazenar a matriz.
