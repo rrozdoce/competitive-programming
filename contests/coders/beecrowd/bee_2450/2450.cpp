@@ -35,13 +35,15 @@ int main()
         for (int j = 0; j < M; j++)
         {
             if(matriz[i][j] == 0) {
+
+                // verificara se a coluna é igual a zero
                 for (int z = i + 1; z < N; z++)
                 {
                     if(matriz[z][j] != 0)
                     {
                         int posicao_z,posicao_x;
 
-                        // caso contrario
+                        // caso contrario, procurar o x mais a esquerda, para verificar a esquerda dele
                         for (int x = j; x > 0; x--)
                         {
                             if(matriz[z][x] != 0)
@@ -51,13 +53,14 @@ int main()
                             }
                         }
 
-                        // é primeiro elemento da matriz de linha n na posicao x, logo nao tem 0s na coluna a esquerda
+                        // é primeiro elemento da matriz de linha z na posicao x, logo nao tem como verificar se tem 0s na coluna a esquerda
                         if(posicao_x == 0)
                         {
                             cout << "N" << endl;
                             return 0;
                         }
 
+                        // verificar coluna
                         for (int y = 0; y < M; y++)
                         {
                             if(matriz[y][posicao_x - 1] != 0)
@@ -66,6 +69,8 @@ int main()
                                 return 0;
                             }
                         }
+
+                        // talvez tenha q verificar a coluna de posicao_z sla;
                         
                     }
                 }
