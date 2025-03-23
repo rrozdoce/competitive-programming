@@ -31,13 +31,9 @@ Exemplos de Entrada
 5 8
 
 0 5 1 0 3 2 2 0
-
 0 0 0 0 4 0 1 2
-
 0 0 0 0 0 0 0 0
-
 0 0 0 0 0 0 0 0
-
 0 0 0 0 0 0 0 0
 	
 Exemplos de Saída
@@ -47,13 +43,9 @@ Exemplos de Entrada
 5 5
 
 1 1 2 3 4
-
 0 1 1 4 5
-
 0 1 2 3 6
-
 0 0 0 2 0
-
 0 0 0 0 0
 	
 Exemplos de Saída
