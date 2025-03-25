@@ -1,4 +1,4 @@
-# Altura
+# Matriz de Quadrados
 
 Atrapalhilton é um estudante muito dedicado, embora muito, muito atrapalhado. Na semana passada, seu professor de Matemática, o Sr. Sabetudilton, recomendou à classe uma lista de exercícios sobre matrizes. Atrapalhilton, aplicado como é, dediciu fazer os exercícios no mesmo dia, tão logo chegou em casa, embora apenas após assistir o episódio vespertino de A Galinha Listradinha, seu programa de TV favorito. O enunciado de um dos exercícios dizia:
 
