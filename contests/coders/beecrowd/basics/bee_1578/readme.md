@@ -2,24 +2,24 @@
 
 Atrapalhilton é um estudante muito dedicado, embora muito, muito atrapalhado. Na semana passada, seu professor de Matemática, o Sr. Sabetudilton, recomendou à classe uma lista de exercícios sobre matrizes. Atrapalhilton, aplicado como é, dediciu fazer os exercícios no mesmo dia, tão logo chegou em casa, embora apenas após assistir o episódio vespertino de A Galinha Listradinha, seu programa de TV favorito. O enunciado de um dos exercícios dizia:
 
-   - Calcule o quadrado de cada uma das matrizes abaixo…
+- Calcule o quadrado de cada uma das matrizes abaixo…
 
 No entanto, Atrapalhilton fez uma baita duma confusão. Para ele, o quadrado de uma matriz quadrada A é a matriz dos quadrados dos valores da matriz A. Por exemplo, o quadrado da matriz
 
 ## Entrada
 
-|   1   |   3   |
-|   5   |   7   |
+| 1 | 3 |
+| 5 | 7 |
 
 para ele não é
 
-|   1   |   3   |
-|   5   |   7   |
+| 1 | 3 |
+| 5 | 7 |
 
 mas
 
-|   1   |   9   |
-|   25  |   49  |
+| 1 | 9 |
+| 25 | 49 |
 
 Atrapalhilton conseguiu calcular o “quadrado” da primeira matriz, da segunda, da terceira e percebeu que já estava muito tarde, que não ia conseguir terminar de calcular os “quadrados” de todas as N matrizes da lista. Então, decidiu escrever um programa que fizesse o serviço para ele.
 
@@ -37,5 +37,6 @@ Exemplo de Entrada
 Exemplo de saida
 
 Quadrado da matriz #4:
-     49 144
-1048576   1
+49 144
+1048576 1
+
