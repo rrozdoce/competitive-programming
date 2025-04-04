@@ -8,7 +8,7 @@ M linhas, cada uma com M inteiros aij (0 ≤ aij ≤ 2^32-1, 1 ≤ i,j ≤ M),
 
 Exemplo entrada:
 
-2 // N
+1 // N
 2 // M
 7 12
 1024 1
@@ -42,7 +42,6 @@ int main()
 
         // saida
         int x = 4;
-
     }
 
     return 0;
