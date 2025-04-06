@@ -1,33 +1,40 @@
+//Numero e Titulo: 1609 - Contando Carneirinhos
 #include <iostream>
-#include <unordered_set>
-#include <map>
 #include <vector>
+#include <unordered_set>
 
 using namespace std;
 
-int main()
+int main(int argc, char const *argv[])
 {
-  ios_base::sync_with_stdio(false); // ganha mais desempenho
-  cin.tie();
+    int numeroCasos, numOvelhas, ovelha;
+    //vector<int> vectorOvelhas;
+    unordered_set<int> ovelhas;
+    vector<int> respostas;
 
-  int numeroCasos, numeroOvelhas, ovelha;
-  unordered_set<int> ovelhas;
-  vector<int> respostas;
 
-  cin >> numeroCasos;
+    cin >> numeroCasos;
 
-  for (int i = 0; i < numeroCasos; i++) {
-    ovelhas.clear();
-    cin >> numeroOvelhas;
-    for (int j = 0; j < numeroCasos; j++) {
-      cin >> ovelha;
-      ovelhas.insert(ovelha);
+    for (int i = 0; i < numeroCasos; i++)
+    {
+        ovelhas.clear();
+        cin >> numOvelhas;
+
+        for (int j = 0; j < numOvelhas; j++)
+        {
+            cin >> ovelha;
+            ovelhas.insert(ovelha);
+            
+        }
+        respostas.push_back(ovelhas.size());
+        
     }
-    respostas.push_back(ovelhas.size());
-  }
-
-  for (int i = 0; i < (int) respostas.size(); i++) {
-    cout << respostas.at(i) << endl;
-  }
-  return 0;
+    
+    for (int i = 0; i < (int)respostas.size(); i++)
+    {
+        cout << respostas.at(i) << "\n";
+    }
+    
+    
+    return 0;
 }
