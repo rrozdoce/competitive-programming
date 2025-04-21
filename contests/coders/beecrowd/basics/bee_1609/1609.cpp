@@ -4,7 +4,7 @@
 #include <unordered_set>
 
 using namespace std;
-
+// --FIX sstrt
 int main(int argc, char const *argv[])
 {
     int numeroCasos, numOvelhas, ovelha;
@@ -24,17 +24,17 @@ int main(int argc, char const *argv[])
         {
             cin >> ovelha;
             ovelhas.insert(ovelha);
-            
+
         }
         respostas.push_back(ovelhas.size());
-        
+
     }
-    
+
     for (int i = 0; i < (int)respostas.size(); i++)
     {
         cout << respostas.at(i) << "\n";
     }
-    
-    
+
+
     return 0;
 }
