@@ -1,5 +1,5 @@
 // Problema Motivacional
-// Numero e Titulo: 1260 - Espécies de Madeira 
+// Numero e Titulo: 1260 - Espécies de Madeira
 // Resolvido: Kaio
 // Aula: Map e Unordered_map
 
@@ -28,9 +28,9 @@ int main() {
             if (linha.empty() && total > 0) { break; };
             if (!linha.empty()) {
                 especies[linha]++;
-                total++;    
+                total++;
             }
-    
+
         }
 
         for (const auto& [nome, qtd] : especies) {
