@@ -64,7 +64,17 @@ CXXFLAGS = -Wall -std=c++20 -O2
 # Limpar executáveis gerados
 clean:
 	rm -f $(basename $(wildcard *.cpp))
+
 ```
+
+```bash
+make <numero_do_problema>
+./<numero_do_problema>
+# para inserir entradas testes(obs: cin.txt é um arquivo texto contendo um teste de entrada)
+./<numero_do_problema> < cin.txt
+```
+
+
 
 ## Contato
 
