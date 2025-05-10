@@ -1,60 +1,79 @@
-# Competitive Programming Solutions 🚀
+# Competitive Programming
 
-Este repositório contém soluções para problemas de programação competitiva de plataformas como Beecrowd, LeetCode, HackerRank e outras. As soluções são organizadas por plataforma e contest/coders, com foco em clareza e eficiência.
+![Competitive Programming](https://img.shields.io/badge/Competitive-Programming-blue) ![C++](https://img.shields.io/badge/Language-C%2B%2B-red)
 
-## 📋 Tabela de Conteúdos
-- [Competitive Programming Solutions 🚀](#competitive-programming-solutions-)
-  - [📋 Tabela de Conteúdos](#-tabela-de-conteúdos)
-  - [🧠 Visão Geral](#-visão-geral)
-  - [🏆 Plataformas Incluídas](#-plataformas-incluídas)
-    - [Convenções:](#convenções)
-  - [🤝 Contribuição](#-contribuição)
-  - [📚 Recursos Úteis](#-recursos-úteis)
+Este repositório contém minhas soluções para diversos problemas de programação competitiva de várias plataformas como Codeforces, LeetCode, CSES, URI/Beecrowd e outras.
 
----
+## Estrutura do Repositório
 
-## 🧠 Visão Geral
-- **Objetivo**: Compartilhar soluções de problemas de programação competitiva, com explicações concisas e código otimizado.
-- **Linguagens**: Principalmente C++, Python e Java (mas outras podem ser incluídas).
-- **Organização**: 
-  - Cada solução inclui um link para o problema original.
-  - Complexidade temporal e espacial é indicada quando relevante.
-  - Explicação do problema em `readme.md` para cada problema haverá um readme.
+O repositório está organizado principalmente por plataformas:
 
----
+- constes/coders/leetcode/ - Soluções para problemas do LeetCode
+- constes/coders/beecrowd/ - Soluções para problemas do Beecrowd (antigo URI)
+  - cada problema é separado por ex: bee_<numero_do_problema>
+- `constes/algorithms/` - Implementações de algoritmos e estruturas de dados comuns
+- slides/  - slides da aula de introdução a programação competitiva
 
-## 🏆 Plataformas Incluídas
-- [Beecrowd](https://judge.beecrowd.com/)
-- [LeetCode](https://leetcode.com/)
+## Linguagem
 
----
+As soluções estão implementadas em C++, mas pode ser usadas outras linguagens.
 
-### Convenções:
-- **Nomes de Pastas**: `contests/coders/` ou `contests/algorithms` (ex: `contests/coders/beecrowd`).
-- **Arquivos de Solução**: `numeroProblema.ext` (ex: `2394.cpp`).
-- **Notas**: Arquivos `readme.md` em pastas em cada um dos problemas para explicações detalhadas.
+## Contribuições
 
----
+Contribuições são bem-vindas! Se você encontrar uma solução mais eficiente ou quiser adicionar a solução para um novo problema, sinta-se à vontade para abrir um Pull Request.
 
-## 🤝 Contribuição
-Contribuições são bem-vindas! Siga estas etapas:
-1. Abra uma **issue** para discutir a mudança proposta.
-2. Faça um fork do repositório e crie um branch com a feature (`git checkout -b feature/sua-solucao`).
-3. Siga a estrutura de pastas e convenções de nomenclatura.
-4. Adicione testes (se aplicável) e certifique-se de que o código está limpo.
-5. Envie um **Pull Request** com uma descrição clara.
+## Propósito
 
----
+Este repositório tem como objetivo:
 
-## 📚 Recursos Úteis
-- [CP-Algorithms](https://cp-algorithms.com/) - Explicações de algoritmos avançados.
-- [GeeksforGeeks](https://www.geeksforgeeks.org/) - Tutoriais e exemplos.
-- [Codeforces Discussões](https://codeforces.com/blog/entry/23054) - Dicas para competições.
-- Livros: 
-  - "Competitive Programming 3" por Steven Halim
-  - "Algorithm Design Manual" por Skiena
-- Canais do YouTube: [Errichto](https://www.youtube.com/c/Errichto), [William Lin](https://www.youtube.com/c/williamlin24)
+- Documentar meu progresso em programação competitiva
+- Servir como referência para implementações de algoritmos e técnicas comuns
+- Compartilhar conhecimento com outros entusiastas de programação competitiva
 
----
+## Recursos Úteis
 
-**Happy Coding!** ✨
+Aqui estão alguns recursos úteis para programação competitiva:
+
+- [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
+- [CP-Algorithms](https://cp-algorithms.com/)
+- [Visualgo](https://visualgo.net/) - Visualização de algoritmos e estruturas de dados
+
+## Como Usar
+
+Cada arquivo contém a solução para um problema específico. O nome do arquivo geralmente corresponde ao ID ou nome do problema na plataforma correspondente, poderá ser usado Makefile ou compilar diretamente no terminal se preferir.
+
+```bash
+# Exemplo de como compilar e executar um arquivo C++
+g++ -std=c++17 problem.cpp -o problem
+./problem
+
+
+```
+
+```makefile
+# Nome do compilador
+CXX = g++
+
+# Flags do compilador
+CXXFLAGS = -Wall -std=c++20 -O2
+
+# Regra padrão (compilar um arquivo .cpp para o executável com nome especificado)
+%: %.cpp
+	$(CXX) $(CXXFLAGS) -o $@ $^ -lm
+
+# Limpar executáveis gerados
+clean:
+	rm -f $(basename $(wildcard *.cpp))
+```
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou entrar em contato comigo.
+
+
+
+Email: felipefelipevilhalva@gmail.com
+
+------
+
+**Nota**: Este repositório é apenas para fins educacionais e de referência.
