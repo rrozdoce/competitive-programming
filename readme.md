@@ -2,16 +2,16 @@
 
 ![Competitive Programming](https://img.shields.io/badge/Competitive-Programming-blue) ![C++](https://img.shields.io/badge/Language-C%2B%2B-red)
 
-Este repositório contém minhas soluções para diversos problemas de programação competitiva de várias plataformas como Codeforces, LeetCode, CSES, URI/Beecrowd e outras.
+Este repositório contém minhas soluções para diversos problemas de programação competitiva de várias plataformas como LeetCode, URI/Beecrowd e outras.
 
 ## Estrutura do Repositório
 
 O repositório está organizado principalmente por plataformas:
 
-- constes/coders/leetcode/ - Soluções para problemas do LeetCode
-- constes/coders/beecrowd/ - Soluções para problemas do Beecrowd (antigo URI)
+- contests/coders/leetcode/ - Soluções para problemas do LeetCode
+- contests/coders/beecrowd/ - Soluções para problemas do Beecrowd (antigo URI)
   - cada problema é separado por ex: bee_<numero_do_problema>
-- `constes/algorithms/` - Implementações de algoritmos e estruturas de dados comuns
+- contests/algorithms Implementações de algoritmos e estruturas de dados comuns
 - slides/  - slides da aula de introdução a programação competitiva
 
 ## Linguagem
@@ -44,7 +44,7 @@ Cada arquivo contém a solução para um problema específico. O nome do arquivo
 
 ```bash
 # Exemplo de como compilar e executar um arquivo C++
-g++ -std=c++17 problem.cpp -o problem
+g++ -Wall -std=c++20 -O2 problem.cpp -o problem
 ./problem
 
 
