@@ -1,27 +1,39 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
+#include <map>
 
-using namespace std;
+int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-#define IOfast { ios_base::sync_with_stdio(false); cin.tie(); }
-using lli = long long int;
+    long long n, x;
+    std::string sstring;
+    long long p, m, g;
 
-int main()
-{
-  IOfast
+    std::cin >> n >> x;
+    std::cin >> sstring;
+    std::cin >> p >> m >> g;
 
-  lli x,n,p,m,g;
-  char P_ = 'P',M_ = 'M', G_ = 'G';
-  string sstring;
+    std::map<char, long long> titan_sizes;
+    titan_sizes['P'] = p;
+    titan_sizes['M'] = m;
+    titan_sizes['G'] = g;
 
-  cin >> n >> x;
-  cin >> sstring;
-  cin >> p >> m >> g;
+    int muralhas = 1;
+    long long capacidade_restante = x;
 
-  lli Pi = std::count(sstring.begin(), sstring.end(), P_);
-  lli Mi = std::count(sstring.begin(), sstring.end(), M_);
-  lli Gi = std::count(sstring.begin(), sstring.end(), G_);
+    for (unsigned int i = 0; i < sstring.length(); ++i) {
+        long long titan_size = titan_sizes[sstring[i]];
 
-  int sum = (Pi * p) + (Mi * m) + (Gi * g);
+        if (titan_size > capacidade_restante) {
+            muralhas++;
+            capacidade_restante = x - titan_size;
+        } else {
+            capacidade_restante -= titan_size;
+        }
+    }
 
-  return 0;
+    std::cout << muralhas << std::endl;
+
+    return 0;
 }
