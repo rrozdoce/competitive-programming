@@ -22,8 +22,5 @@ int main() {
             cin >> test_case[i][j];
         }
     }
-
-    // lógica
-
     return 0;
 }
