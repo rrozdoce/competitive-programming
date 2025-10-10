@@ -13,10 +13,8 @@ int main() {
   ios_base::sync_with_stdio(false);
   cin.tie(nullptr);
   //int a = 65, b = 66, c = 67, _ex = 63;
-          // 67 - 65 = 2
-
-  int res = ((65 & 3) == 3);
-  cout << res << endl;
+          // 67 - 65 =
+  cout << (1 ^ 2) << endl;
 
   return 0;
 }
