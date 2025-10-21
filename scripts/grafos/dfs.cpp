@@ -3,6 +3,8 @@ using namespace std;
 
 int tempo = 0;
 
+// busca em profundidade
+
 struct Vertice
 {
   int value;

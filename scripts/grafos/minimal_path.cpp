@@ -4,7 +4,7 @@ using namespace std;
 //using int = long long int;
 //using si = short int;
 
-// Busca em Largura
+// caminho minimo entre um vértice e todos os outros
 
 struct Vertice
 {
@@ -13,7 +13,8 @@ struct Vertice
   list<int> neighbors;
   int d;
   int pi;
-  Vertice(): value(), color('B'), d(INT_MAX), pi(-1) {}
+  int weight; // peso
+  Vertice(): value(), color('B'), d(INT_MAX), pi(-1), weight(INT_MAX) {}
 };
 
 void bfs(vector<Vertice> G, int s)
@@ -51,6 +52,7 @@ int main(int argc, char const *argv[]) {
   cin >> n;
   vector<Vertice> G(n);
 
+  /**/
   while(cin >> x >> y)
   {
     G[x].value = x;
